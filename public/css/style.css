@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    min-height: 90vh;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    column-gap: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 10%;
+    margin: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    height: 60px;
+}
